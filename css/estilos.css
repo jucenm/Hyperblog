@@ -1,14 +1,20 @@
 body 
 {
-    color: deepskyblue;
-    text-align: left;
+    color: #000;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #container {
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid gray;
+    border: 1px solid #000;
     margin: 0 auto;
+}
+
+#container h1 {
+    font-size: 20px;
 }
